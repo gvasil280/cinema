@@ -1,0 +1,90 @@
+/*
+body {
+    background-image: url("../images/godfather.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+*/
+
+.container {
+   margin:0 auto; 
+   width:960px;
+}
+
+#section {
+    background-color: white;
+}
+
+#h01,
+#h02,
+#menu {
+    text-align:center;
+}
+
+p {
+    color:black;
+}
+
+table.general
+{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+tr:hover {
+  background-color: #e6e6e6; 
+}
+
+tr.head_row {
+  background-color: #32B2B2;
+  color: white;
+  }
+
+th{
+  width: 25%;
+  padding: 15px;
+}
+
+td{
+  text-align: center;
+  padding: 15px;
+}
+
+
+ul#menu {
+    padding: 0;
+}
+
+ul#menu {
+    list-style: none;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    background-color: rgba(21,43,57,1);
+    /* background-color: #660033; */
+    color: white;
+    padding: 10px 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px black;
+    cursor: pointer;
+    /* border-radius: 4px 4px 0 0; */
+}
+
+ul#menu li a:hover {
+    background-color: rgba(36,110,108,1);
+}
+
+img#espa {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
