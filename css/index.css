@@ -16,14 +16,20 @@ body {
     background-color: white;
 }
 
-#h01,
+h1#h01 {
+	text-align: center;
+	color: rgba(21,43,57,1);
+}
+
 #h02,
 #menu {
     text-align:center;
 }
 
-p {
+p#p1 {
+    text-align:center;
     color:black;
+    margin: 50px;
 }
 
 table.general
@@ -31,7 +37,6 @@ table.general
   border: 1px solid black;
   border-collapse: collapse;
 }
-
 tr:hover {
   background-color: #e6e6e6; 
 }
@@ -81,6 +86,17 @@ ul#menu li a {
 
 ul#menu li a:hover {
     background-color: rgba(36,110,108,1);
+}
+
+header#intro {
+	text-align: center;
+	color: rgba(21,43,57,1);
+    margin: 50px;
+}
+
+form#search {
+	text-align: center;
+    margin: 50px;
 }
 
 img#espa {
