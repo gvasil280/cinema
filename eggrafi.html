@@ -36,8 +36,26 @@
 	  <main>
 
 		<form>
-			<input type="text" placeholder="Όνομα" name="name">
-			<button>Εγγραφή</button>
+			<div>
+				<input type="text" placeholder="Όνομα" name="name">
+			</div>
+			<div>
+				<input type="password" placeholder="Εισαγωγή Κωδικού" name="password">
+			</div>
+			<div>
+				<input type="password" placeholder="Επανάληψη Κωδικού" name="password">
+			</div>
+			<div>
+				<input list="genders" placeholder="Φύλο" name="gender">
+				<datalist id="genders">
+					<option value="Άνδρας">
+					<option value="Γυναίκα">
+					<option value="Άλλο">
+				</datalist>
+			</div>
+			<div>
+				<button>Εγγραφή</button>
+			</div>
 		</form>
 
 	<!--
