@@ -7,23 +7,17 @@ body {
 }
 */
 
+/*
 .container {
-   margin:0 auto; 
-   width:960px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
-
-#section {
-    background-color: white;
-}
+*/
 
 h1#h01 {
 	text-align: center;
 	color: rgba(21,43,57,1);
-}
-
-#h02,
-#menu {
-    text-align:center;
 }
 
 p#p1 {
@@ -56,22 +50,22 @@ td{
   padding: 15px;
 }
 
-
-ul#menu {
+/* ul#menu {
     padding: 0;
-}
+}*/
 
 ul#menu {
     list-style: none;
+    text-align:center;
+    margin: 50px;
 }
 
 ul#menu li {
     display: inline;
 }
 
-ul#menu li a {
+ul li a {
     background-color: rgba(21,43,57,1);
-    /* background-color: #660033; */
     color: white;
     padding: 10px 20px;
     margin-left: 5px;
@@ -81,10 +75,9 @@ ul#menu li a {
     border-radius: 20px;
     box-shadow: 0px 0px 6px black;
     cursor: pointer;
-    /* border-radius: 4px 4px 0 0; */
 }
 
-ul#menu li a:hover {
+ul li a:hover {
     background-color: rgba(36,110,108,1);
 }
 
@@ -110,4 +103,14 @@ img#directors {
     margin-left: auto;
     margin-right: auto; 
 	width: 40%;
+}
+
+ul#foot {
+    list-style: none;
+    text-align:center;
+    margin: 15px;
+}
+
+ul#foot li {
+    display: inline;
 }
